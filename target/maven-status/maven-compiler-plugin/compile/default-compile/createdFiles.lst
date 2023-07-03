@@ -1,2 +1,5 @@
-com/example/EC2Wilians/Ec2WiliansApplication.class
+com/example/EC2Wilians/UserRepository.class
 com/example/EC2Wilians/Controller.class
+com/example/EC2Wilians/User.class
+com/example/EC2Wilians/Ec2WiliansApplication.class
+com/example/EC2Wilians/ApiController.class
