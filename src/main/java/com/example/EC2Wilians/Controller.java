@@ -19,7 +19,7 @@ public class Controller{
         public String codigo(){
             return "PT77425335";
     }
-        @GetMapping(path="/idat/nombre_completo") 
+        @GetMapping(path="/idat/nombre-completo") 
         public String nombrecompleto(){
             return "Luiggi Wilians Chacon Perez";
     }
