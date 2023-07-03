@@ -29,10 +29,10 @@ public class ApiController {
   	// private JdbcTemplate jdbcTemplate;
 
 	@PostMapping(path="/nuevo") // Map ONLY POST Requests
-	public @ResponseBody String addNewUser (@RequestParam String name
+	public @ResponseBody String addNewUser (@RequestParam String nombre
 			, @RequestParam Integer creditos) {
 		User n = new User();
-		n.setName(name);
+		n.setNombre(nombre);
 		n.setCreditos(creditos);
 		userRepository.save(n);
 		return "Saved";
@@ -51,7 +51,7 @@ public class ApiController {
 	, @RequestParam Integer creditos) {
 		User n = new User();
 		n.setId(id);
-		n.setName(name);
+		n.setNombre(name);
 		n.setCreditos(creditos);
 		userRepository.save(n);
 		return "Updated";
